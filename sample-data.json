@@ -1,0 +1,397 @@
+{
+  "bookings": [
+    {
+      "id": "mtsna95k0t1c4",
+      "bookingId": "BK-2026-0002",
+      "customerId": "mtsna95k87ks6",
+      "customerName": "Fatima Ali",
+      "eventType": "Mehndi",
+      "eventDate": "2026-08-16",
+      "startTime": "16:00",
+      "endTime": "20:00",
+      "guests": 150,
+      "venueId": "mtsna95knxrm3",
+      "venueName": "Outdoor Lawn",
+      "branch": "Branch 2",
+      "venuePrice": 250000,
+      "status": "tentative",
+      "totalAmount": 300000,
+      "paidAmount": 50000,
+      "remainingAmount": 250000,
+      "foodPackageId": null,
+      "foodPackageName": "",
+      "foodPricePerPerson": 0,
+      "foodTotal": 0,
+      "additionalServices": [
+        {
+          "name": "Decoration",
+          "price": 30000
+        },
+        {
+          "name": "Photography",
+          "price": 20000
+        }
+      ],
+      "specialInstructions": "",
+      "createdAt": "2026-07-25T14:30:00"
+    },
+    {
+      "id": "mtsna95kgra1d",
+      "bookingId": "BK-2026-0003",
+      "customerId": "mtsna95kkle9u",
+      "customerName": "Usman Malik",
+      "eventType": "Barat",
+      "eventDate": "2026-08-20",
+      "startTime": "20:00",
+      "endTime": "00:00",
+      "guests": 500,
+      "venueId": "mtsna95knxrm3",
+      "venueName": "Outdoor Lawn",
+      "branch": "Branch 2",
+      "venuePrice": 250000,
+      "status": "confirmed",
+      "totalAmount": 950000,
+      "paidAmount": 300000,
+      "remainingAmount": 650000,
+      "foodPackageId": null,
+      "foodPackageName": "Premium Package",
+      "foodPricePerPerson": 1500,
+      "foodTotal": 750000,
+      "additionalServices": [
+        {
+          "name": "Decoration",
+          "price": 60000
+        },
+        {
+          "name": "Stage",
+          "price": 40000
+        },
+        {
+          "name": "Generator",
+          "price": 20000
+        }
+      ],
+      "specialInstructions": "Halal meat only",
+      "createdAt": "2026-07-28T09:15:00"
+    },
+    {
+      "id": "mu5qn4xgy7phn",
+      "bookingId": "BK-2026-0003",
+      "customerId": "mtsna95k0ppet",
+      "customerName": "Ahmed Khan",
+      "eventType": "Barat",
+      "eventDate": "2006-12-03",
+      "startTime": "18:00",
+      "endTime": "22:00",
+      "guests": 100,
+      "venueId": "mtsna95kza91a",
+      "venueName": "Banquet Hall",
+      "branch": "Branch 1",
+      "venuePrice": 150000,
+      "status": "tentative",
+      "totalAmount": 350000,
+      "paidAmount": 0,
+      "remainingAmount": 350000,
+      "foodPackageId": "mtsna95keqcar",
+      "foodPackageName": "Premium Package",
+      "foodPricePerPerson": 1500,
+      "foodTotal": 150000,
+      "additionalServices": [
+        {
+          "name": "Decoration",
+          "price": 50000
+        }
+      ],
+      "specialInstructions": "skdj lskfl;ksdl;fkl;sdkl;f klsd;f;sdf",
+      "createdAt": "2026-09-17T16:22:40.564Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "mtsna95k0ppet",
+      "name": "Ahmed Khan",
+      "phone": "0300-1234567",
+      "whatsapp": "0300-1234567",
+      "address": "Lahore, Pakistan"
+    },
+    {
+      "id": "mtsna95k87ks6",
+      "name": "Fatima Ali",
+      "phone": "0300-7654321",
+      "whatsapp": "0300-7654321",
+      "address": "Islamabad, Pakistan"
+    },
+    {
+      "id": "mtsna95kkle9u",
+      "name": "Usman Malik",
+      "phone": "0321-9876543",
+      "whatsapp": "0321-9876543",
+      "address": "Karachi, Pakistan"
+    },
+    {
+      "id": "mtsna95kvm36y",
+      "name": "Sana Ahmed",
+      "phone": "0345-4567890",
+      "whatsapp": "0345-4567890",
+      "address": "Rawalpindi, Pakistan"
+    }
+  ],
+  "venues": [
+    {
+      "id": "mtsna95kxbjar",
+      "name": "Main Lawn",
+      "type": "Lawn",
+      "capacity": 500,
+      "price": 200000,
+      "branch": "Branch 1"
+    },
+    {
+      "id": "mtsna95kza91a",
+      "name": "Banquet Hall",
+      "type": "Hall",
+      "capacity": 250,
+      "price": 150000,
+      "branch": "Branch 1"
+    },
+    {
+      "id": "mtsna95kyoxmc",
+      "name": "VIP Hall",
+      "type": "Hall",
+      "capacity": 100,
+      "price": 100000,
+      "branch": "Branch 1"
+    },
+    {
+      "id": "mtsna95knxrm3",
+      "name": "Outdoor Lawn",
+      "type": "Lawn",
+      "capacity": 800,
+      "price": 250000,
+      "branch": "Branch 2"
+    }
+  ],
+  "payments": [
+    {
+      "id": "mtsna95k2gemy",
+      "bookingId": "mtsna95kwts7z",
+      "amount": 100000,
+      "method": "cash",
+      "date": "2026-07-20",
+      "reference": "Advance payment",
+      "notes": ""
+    },
+    {
+      "id": "mtsna95kh1kz7",
+      "bookingId": "mtsna95kwts7z",
+      "amount": 100000,
+      "method": "bank_transfer",
+      "date": "2026-07-25",
+      "reference": "TRX-12345",
+      "notes": "Second installment"
+    },
+    {
+      "id": "mtsna95kkiiht",
+      "bookingId": "mtsna95k0t1c4",
+      "amount": 50000,
+      "method": "cash",
+      "date": "2026-07-26",
+      "reference": "Booking fee",
+      "notes": ""
+    },
+    {
+      "id": "mtsna95kptbra",
+      "bookingId": "mtsna95kgra1d",
+      "amount": 300000,
+      "method": "online",
+      "date": "2026-07-28",
+      "reference": "ON-67890",
+      "notes": "50% advance"
+    }
+  ],
+  "dishes": [
+    {
+      "id": "mtsna95klcdvz",
+      "name": "Biryani",
+      "category": "Rice",
+      "price": 300,
+      "description": "Fragrant rice with meat",
+      "status": "active"
+    },
+    {
+      "id": "mtsna95k8icwo",
+      "name": "Pulao",
+      "category": "Rice",
+      "price": 250,
+      "description": "Simple rice dish",
+      "status": "active"
+    },
+    {
+      "id": "mtsna95k1zz8i",
+      "name": "Chicken Karahi",
+      "category": "Main Course",
+      "price": 400,
+      "description": "Spicy chicken curry",
+      "status": "active"
+    },
+    {
+      "id": "mtsna95kfuvaf",
+      "name": "Nihari",
+      "category": "Main Course",
+      "price": 500,
+      "description": "Slow cooked beef stew",
+      "status": "active"
+    },
+    {
+      "id": "mtsna95kwjclb",
+      "name": "BBQ Platter",
+      "category": "BBQ",
+      "price": 600,
+      "description": "Mixed grill platter",
+      "status": "active"
+    },
+    {
+      "id": "mtsna95kbyjmf",
+      "name": "Seekh Kebab",
+      "category": "BBQ",
+      "price": 350,
+      "description": "Minced meat kebabs",
+      "status": "active"
+    },
+    {
+      "id": "mtsna95k148rj",
+      "name": "Garden Salad",
+      "category": "Salad",
+      "price": 150,
+      "description": "Fresh vegetables",
+      "status": "active"
+    },
+    {
+      "id": "mtsna95kac6kn",
+      "name": "Raita",
+      "category": "Salad",
+      "price": 100,
+      "description": "Yogurt with cucumber",
+      "status": "active"
+    },
+    {
+      "id": "mtsna95koetwc",
+      "name": "Soft Drink",
+      "category": "Drinks",
+      "price": 80,
+      "description": "Carbonated beverages",
+      "status": "active"
+    },
+    {
+      "id": "mtsna95kbefyt",
+      "name": "Kulfi",
+      "category": "Dessert",
+      "price": 150,
+      "description": "Traditional ice cream",
+      "status": "active"
+    },
+    {
+      "id": "mtsna95ku4oxz",
+      "name": "Gulab Jamun",
+      "category": "Dessert",
+      "price": 120,
+      "description": "Sweet milk balls",
+      "status": "active"
+    },
+    {
+      "id": "mtsna95ktmgpi",
+      "name": "Naan",
+      "category": "Roti/Naan",
+      "price": 30,
+      "description": "Bread",
+      "status": "active"
+    }
+  ],
+  "foodPackages": [
+    {
+      "id": "mtsna95keqcar",
+      "name": "Premium Package",
+      "pricePerPerson": 1500,
+      "description": "Complete premium dining experience",
+      "dishes": [
+        "Biryani",
+        "Chicken Karahi",
+        "BBQ Platter",
+        "Garden Salad",
+        "Raita",
+        "Soft Drink",
+        "Kulfi",
+        "Naan"
+      ],
+      "status": "active"
+    },
+    {
+      "id": "mtsna95kb3f17",
+      "name": "Standard Package",
+      "pricePerPerson": 1000,
+      "description": "Standard wedding menu",
+      "dishes": [
+        "Pulao",
+        "Chicken Karahi",
+        "Seekh Kebab",
+        "Garden Salad",
+        "Soft Drink",
+        "Gulab Jamun",
+        "Naan"
+      ],
+      "status": "active"
+    }
+  ],
+  "foodCategories": [
+    "Rice",
+    "Main Course",
+    "BBQ",
+    "Salad",
+    "Drinks",
+    "Dessert",
+    "Roti/Naan"
+  ],
+  "expenses": [
+    {
+      "id": "mtsna95kd9jsg",
+      "title": "Electricity Bill",
+      "amount": 25000,
+      "date": "2026-08-01",
+      "category": "Utilities",
+      "notes": "Monthly bill"
+    },
+    {
+      "id": "mtsna95kxk3sd",
+      "title": "Staff Salaries",
+      "amount": 120000,
+      "date": "2026-08-01",
+      "category": "Staff",
+      "notes": "July salaries"
+    },
+    {
+      "id": "mtsna95k83l8u",
+      "title": "Decoration Materials",
+      "amount": 15000,
+      "date": "2026-08-05",
+      "category": "Decoration",
+      "notes": "New decorations"
+    }
+  ],
+  "quotations": [
+    {
+      "id": "mv2avi30jrrim",
+      "quotationId": "QT-2026-0001",
+      "customerId": "mtsna95k0ppet",
+      "customerName": "Ahmed Khan",
+      "eventType": "Mehndi",
+      "eventDate": "2026-10-15",
+      "venueId": "mtsna95kza91a",
+      "venueName": "Banquet Hall",
+      "guests": 100,
+      "totalAmount": 300000,
+      "status": "draft",
+      "terms": "50% advance payment required. Balance due 7 days before event.",
+      "createdAt": "2026-10-10T11:17:40.812Z"
+    }
+  ],
+  "exportedAt": "2026-10-10T11:17:48.104Z"
+}
